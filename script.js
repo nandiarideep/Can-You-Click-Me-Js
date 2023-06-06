@@ -1,5 +1,5 @@
 var no = function(){
-    // window.alert("You cant ignore me 😍");
+  
     var noBox = document.getElementById('no');
     noBox.style.position = "absolute";
     noBox.style.top = null;
