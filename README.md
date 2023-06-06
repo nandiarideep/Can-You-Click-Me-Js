@@ -2,7 +2,7 @@
 
 This is a simple JavaScript Project for Fun. 
 
-Try it to first!
+Try it first!
 
 Here's a small preview of the Project. Enjoy!
 
