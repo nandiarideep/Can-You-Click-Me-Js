@@ -1,0 +1,70 @@
+/*---------------------------------- Google Fonts --------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200&family=Kanit:wght@200&family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@0,200;1,200&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+/*---------------------------------- Globals -------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: kanit;
+    user-select: none;
+    background: linear-gradient(135deg, #2974ed 25%, #dac54f 75%);
+}
+
+/*---------------------- div id's ------------------------------*/
+#question{
+    height : 50px;
+    width : 500px;
+    background-color: rgb(109, 173, 215);
+    border : 2px solid rgb(222, 199, 199) ;
+    border-radius : 70px;
+    margin : 70px;
+    display : flex;
+    justify-content : center;
+    padding: 50px;
+    align-items : center;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+   
+}
+
+button{
+    height : 50px;
+    display: inline-block;
+    margin : 40px;
+    width : 100px;
+    background-color: rgb(236, 16, 45);
+    border-radius : 25px;
+    border: none;
+    color: rgb(237, 219, 219);
+    font-size: 20px;
+    letter-spacing: 5px;
+    transition: all 0.2s ease;
+    position: relative;
+    text-transform: capitalize;
+}
+
+/*----------------------------- button classes ---------------------*/
+.btn-1{
+    position: relative;  
+}
+
+.btn-2{
+    position: relative;
+}
+
+/*------------------------ button pseudo class ---------------------*/
+button:hover{
+    background-color: rgb(7, 66, 241);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 5px rgb(228, 224, 233);
+    transform: scale(1.1);
+}
